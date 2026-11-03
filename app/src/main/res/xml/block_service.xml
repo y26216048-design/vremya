@@ -1,0 +1,10 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewTextChanged"
+    android:packageNames="com.instagram.android,com.instagram.lite,com.google.android.youtube,com.android.chrome,com.chrome.beta,com.chrome.dev,com.chrome.canary,com.brave.browser,com.microsoft.emmx,com.vivaldi.browser,com.sec.android.app.sbrowser,com.sec.android.app.sbrowser.beta,org.mozilla.firefox,org.mozilla.fenix,com.android.settings,com.google.android.packageinstaller,com.android.packageinstaller,com.samsung.android.packageinstaller,com.google.android.permissioncontroller,com.android.permissioncontroller"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:notificationTimeout="0"
+    android:canRetrieveWindowContent="true"
+    android:accessibilityFlags="flagReportViewIds"
+    android:isAccessibilityTool="false"
+    android:description="@string/service_description"
+    android:settingsActivity="ru.barakah.focus.MainActivity"/>
