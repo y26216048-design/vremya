@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Время — блокировка Instagram",
+  "version": "0.10.0",
+  "description": "Блокирует Instagram и его поддомены в этом браузере.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "instagram",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

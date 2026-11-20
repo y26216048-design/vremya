@@ -8,6 +8,8 @@ public final class BlockRules {
     private BlockRules() {}
     public static boolean blocksApp(String name) {
         return "com.instagram.android".equals(name) || "com.instagram.lite".equals(name)
+            || "com.instapro.android".equals(name) || "com.instapro2.android".equals(name)
+            || "com.instapro3.android".equals(name)
             || "com.google.android.youtube".equals(name);
     }
     public static String blockedHost(String address) {
